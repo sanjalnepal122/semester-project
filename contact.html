@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Starbucks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css"/>
+    <link rel="stylesheet" href="Styles.css"/>
+    <link rel="stylesheet" href="styles2.css"/>
+    <link rel="stylesheet"href="layout_style.css"/>
+    <link rel="stylesheet" href="styles3.css"/>
+    <link rel="stylesheet" href="wishList.js"/>
+    <script type="text/javascript" src="wishList.js"></script>
+
+
+
+    </head>
+    <body>
+        <div id:"layout">
+            <nav>
+                <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="product.html"> Drinks</a></li> </ul>
+                </nav>
+    <header>
+        <h1>Starbucks.com</h1>
+        <h4>We have your coffee....</h4>
+        </header>
+       
+            <section><h2>Contact Us</h2></section>
+            <main>
+
+
+
+                <p> Fill out the required information</p>
+                    <form name="Contactusform" id="Contactusform"
+                        action="#"
+                        method="get">
+                    <div id="error"></div>
+                    <fieldset id="Contactusfields">
+
+                        <legend> Contact Info </legend>
+
+                        
+                        <div class="formrow">
+                            <label for="name">Name <span>*</span></label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+
+
+                        <div class="formrow">
+                            <label for="phone">Phone Number <span>*</span></label>
+                            <input type="tel" name="phone" id="phone" />
+                        </div>
+
+                        <div class="formrow">
+                            <label for="email"> Email <span>*</span></label>
+                            <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /> 
+                        </div>
+
+                        <div class="formrow">
+                            <label for="name">Additional Contact Name <span>*</span></label>
+                            <input type="text" name="name" id="name" />
+                        </div>
+
+                        <div class="formrow">
+                            <label for="phone">Additional Phone Number <span>*</span></label>
+                            <input type="tel" name="phone" id="phone" />
+                        </div>
+                        </fieldset>
+
+
+                    <fieldset id="request"> 
+                        <legend>Request us</legend>
+                        <div class="formrow"> 
+                            <label class="blocklabel" for="topic"> Request Topic <span>*</span></label>
+                            <select id="option" name="option">
+                                <option value=""> Select option</option>
+                                <option vlaue="drinks">Drinks</option>
+                                <option vlaue="webpage">webpage</option>
+                                <option vlaue="refund">Refund</option>
+                                <option vlaue="activity">Activity</option>
+                                <option vlaue="other">Questions You have</option>  
+                            </select>
+                        </div>
+
+
+                        <div class="formrow">
+                            <label for="subject"> Subject<span>*</span></label>
+                            <input type="text" name="subject" id="subject" />
+                        </div>
+
+                        <label for="message" class="blocklabel">Write your message: <span>*</span></label>
+                        <textarea id="message" name="message" rows="7" cols="88"></textarea>
+
+                    </fieldset>
+
+
+                    <fieldset id="maillist">
+                        <legend> do you want to know more about our new products?</legend>
+                        <label for="yYes">Yes</label>
+                        <input type="radio" id="yYes" name="yList" value="yes" />
+                        <label for="yNo">No</label>
+                        <input type="radio" id="yNo" name="yList" value="no" />
+                    </fieldset>
+                        <legend></legend>
+                    </fieldset>
+
+
+                    <input type="submit" value="Submit Request" id="submit" />
+             </form>
+            </main>
+               <footer>
+                <p>Copyright 2022 by Sanjay Nepal</p>
+            </footer>
+       
+        </nav>
+        </div>
+    </body>
+</html>
+
+        
+        

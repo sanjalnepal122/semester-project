@@ -1,0 +1,53 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0; 
+}
+
+h1{
+    font-family: Tahoma, Arial, Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: -2px;
+    margin-bottom: 0px; 
+}
+
+h2{ color: rgb(205, 50, 179); 
+
+}
+
+h4 { font-style: italic;
+    margin-top: 0px
+    
+}
+
+main { 
+    background-color: white;
+
+}
+header { 
+    background-color: #449900;
+ 
+
+}
+
+main, header, footer { 
+    padding: 5px 5px 5px px; 
+}
+
+section { 
+    padding-left: 5px;
+
+}
+.center { 
+    text-align:center; 
+
+}
+footer { 
+    font-size: x-small;
+    text-align:center;
+    background-color: #CAD217;
+    line-height: 2em;
+}
+
+

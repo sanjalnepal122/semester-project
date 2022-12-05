@@ -1,0 +1,66 @@
+main#grid-area {
+    display: grid;
+    grid-gap: 55px;
+    grid-template-columns:400px repeat(auto-fill, 100px) 300px; 
+}
+
+
+
+#layout, main { 
+    background-color:aqua;
+}
+
+
+#fName, #1Name, #email {
+    width: 230px; 
+}
+
+#maillist, textarea { 
+    width: 80%;
+    max-width: 480px;
+    padding: 6px; 
+    align-content: center;
+} 
+#maillist { 
+ text-align: center;
+ display:inline-block;
+ margin-left: auto;
+ margin-right: auto;
+
+
+}
+
+#phone { 
+    width: 140px;
+}
+
+
+
+
+fieldset, select { 
+    margin-bottom: 8px;
+    padding: 6px;
+    background-color: rgb(134, 203, 45);
+    border-color: brown;
+}
+
+
+fieldset span { 
+    color:orange
+
+}
+div.formrow { 
+    display: flex;
+    flex-flow: wrap;
+    margin: 9px; 
+}
+
+div.formrow label { 
+    width: 140px; 
+}
+
+.blocklabel { 
+    display: block;
+}
+
+

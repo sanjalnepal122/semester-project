@@ -1,0 +1,100 @@
+nav { 
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: left; 
+    background-color: darkgreen;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+
+.nav-links{ 
+    flex: 1; 
+    text-align: right; 
+
+}
+.nav-links ul li{ 
+    list-style: none; 
+    display: inline-block;
+    padding: 8px 12px; 
+    position: relative;
+
+}
+
+.nav-links ul li a{ 
+    color: rgb(209, 179, 28);
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display:block;
+    margin: auto; 
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover:after{
+   width: 100% 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header { 
+    background: url('image/logos.png') #009947ee no-repeat;
+    background-size: 50px 50px;
+    background-position: 20px 5px;
+    padding-left: 70px; 
+    height: 65px; 
+}
+
+#layout { 
+    background-color: #559885;
+}
+
+aside{ 
+    padding: 10px;
+    font-size: small;
+    border: thin black dashed; 
+    width: 25%; 
+    float: right; 
+    border-radius: 20px; 
+    box-shadow: 2px 2px 5px #333;
+    background-color: #fff677;
+    background-color: linear-gradient (0deg, #FFF035, #FFF667, #fffde1, #fff667, #FFF035);
+}
+
+section { 
+    background: url('image/coffee.jpg')  no-repeat;
+    background-size: cover; 
+    background-position: top center;
+    height: 450px;
+    box-sizing: border-box; 
+    padding: 300px 0 0 100px; 
+}
+h2 { 
+    color: #FFF677;
+    text-shadow: 2px 2px 30px black;
+    background: url('image/coffee.jpg');
+    background-position: left center;
+    height: 100%;
+  border: auto;
